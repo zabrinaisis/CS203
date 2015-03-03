@@ -1,0 +1,69 @@
+At breakpoint 6 in Question13.java the stack is:
+
+b = 3.5
+a = 6.0
+this
+doThingX()---
+a (Paused)
+t1
+args
+Main()--------
+
+
+At breakpoint 14 in Test.java the stack is:
+
+b = 21
+a
+this
+doThingY()---
+s1 (paused)
+a = 21
+t1
+args
+Main()--------
+
+
+At breakpoint 16 in Test.java the stack is:
+
+c = 5
+b = 21
+a
+this
+doThingY()---
+s1 (paused)
+a = 21
+t1
+args
+Main()--------
+
+
+At breakpoint 22 in Test.java the stack is:
+
+b = 21
+a = 5
+this
+doThingZ()---
+c = 5
+b = 21
+a
+this
+doThingY()---
+s1 (paused)
+a = 21
+t1
+args
+Main()--------
+
+
+
+
+At breakpoint 8 in Question13.java the stack is:
+
+this
+Test()--------
+t2
+s1
+a = 21
+t1
+args
+Main()--------
